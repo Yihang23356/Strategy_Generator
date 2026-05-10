@@ -1,0 +1,21 @@
+{
+  "source": "finance_and_risk",
+  "project": "smart-warehouse-upgrade",
+  "risk_items": [
+    {
+      "name": "integration_delay",
+      "probability": "medium",
+      "impact": "high"
+    },
+    {
+      "name": "vendor_lock_in",
+      "probability": "low",
+      "impact": "medium"
+    }
+  ],
+  "kpi_targets": {
+    "order_accuracy_pct": 99.4,
+    "avg_fulfillment_minutes": 42,
+    "exception_resolution_minutes": 18
+  }
+}

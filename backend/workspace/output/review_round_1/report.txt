@@ -1,0 +1,54 @@
+================================================================================
+JSON 差异分析报告
+================================================================================
+
+分析时间: 2026-04-26T18:52:53.266960
+输入文件: input/uploads/input_a_input_a.json, input/uploads/input_b_input_b.json, input/uploads/input_c_input_c.json
+标准答案: input/uploads/standard_standard_answer.json
+
+分析摘要
+----------------------------------------
+总差异数: 42
+
+按对比分组:
+  input_a_input_a.json vs input_b_input_b.json: 7 个差异
+  input_a_input_a.json vs input_c_input_c.json: 6 个差异
+  input_b_input_b.json vs input_c_input_c.json: 6 个差异
+  input_a_input_a.json vs standard: 8 个差异
+  input_b_input_b.json vs standard: 8 个差异
+  input_c_input_c.json vs standard: 7 个差异
+
+按严重程度:
+  critical: 0 个差异
+  high: 1 个差异
+  medium: 41 个差异
+  low: 0 个差异
+
+按差异类型:
+  structural: 39 个差异
+  content: 3 个差异
+  semantic: 0 个差异
+  type_mismatch: 0 个差异
+
+一致性分析
+----------------------------------------
+最接近标准答案: input_c_input_c.json
+偏离最大: input_a_input_a.json
+
+完全一致的字段 (10 个):
+  - goal
+  - constraints
+  - constraints.budget_cny_million
+  - constraints.timeline_months
+  - constraints.headcount_limit
+  ... 还有 5 个字段
+
+验证结果
+----------------------------------------
+验证通过: True
+抽样检查: 8 个样本
+备注: 随机抽样 8 个差异进行验证，全部通过
+
+================================================================================
+报告生成完成
+================================================================================

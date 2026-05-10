@@ -1,0 +1,113 @@
+0 verbose cli D:\software\node\node.exe D:\software\node\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.12.0
+3 silly config load:file:D:\software\node\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\18383\Desktop\策略规划器\frontend\.npmrc
+5 silly config load:file:C:\Users\18383\.npmrc
+6 silly config load:file:D:\software\node\node_global\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\18383\Desktop\策略规划器\frontend\.npm-cache\_logs\2026-04-26T07_57_42_842Z-
+10 verbose logfile C:\Users\18383\Desktop\策略规划器\frontend\.npm-cache\_logs\2026-04-26T07_57_42_842Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly audit bulk request {
+15 silly audit   '@esbuild/aix-ppc64': [ '0.21.5' ],
+15 silly audit   '@esbuild/android-arm': [ '0.21.5' ],
+15 silly audit   '@esbuild/android-arm64': [ '0.21.5' ],
+15 silly audit   '@esbuild/android-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/darwin-arm64': [ '0.21.5' ],
+15 silly audit   '@esbuild/darwin-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/freebsd-arm64': [ '0.21.5' ],
+15 silly audit   '@esbuild/freebsd-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-arm': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-arm64': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-ia32': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-loong64': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-mips64el': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-ppc64': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-riscv64': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-s390x': [ '0.21.5' ],
+15 silly audit   '@esbuild/linux-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/netbsd-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/openbsd-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/sunos-x64': [ '0.21.5' ],
+15 silly audit   '@esbuild/win32-arm64': [ '0.21.5' ],
+15 silly audit   '@esbuild/win32-ia32': [ '0.21.5' ],
+15 silly audit   '@esbuild/win32-x64': [ '0.21.5' ],
+15 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-android-arm64': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-darwin-arm64': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-darwin-x64': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-freebsd-x64': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-linux-loong64-musl': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-linux-ppc64-musl': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-openbsd-x64': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.60.2' ],
+15 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.60.2' ],
+15 silly audit   '@types/estree': [ '1.0.8' ],
+15 silly audit   esbuild: [ '0.21.5' ],
+15 silly audit   fsevents: [ '2.3.3' ],
+15 silly audit   nanoid: [ '3.3.11' ],
+15 silly audit   picocolors: [ '1.1.1' ],
+15 silly audit   postcss: [ '8.5.10' ],
+15 silly audit   rollup: [ '4.60.2' ],
+15 silly audit   'source-map-js': [ '1.2.1' ],
+15 silly audit   vite: [ '5.4.21' ]
+15 silly audit }
+16 http fetch POST 404 https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk 146ms
+17 verbose audit error HttpErrorGeneral: 404 Not Found - POST https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk - [NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet
+17 verbose audit error     at D:\software\node\node_modules\npm\node_modules\npm-registry-fetch\lib\check-response.js:103:15
+17 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+17 verbose audit error     at async #getReport (D:\software\node\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:275:19)
+17 verbose audit error     at async AuditReport.run (D:\software\node\node_modules\npm\node_modules\@npmcli\arborist\lib\audit-report.js:100:19)
+17 verbose audit error     at async Arborist.reify (D:\software\node\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:257:24)
+17 verbose audit error     at async Install.exec (D:\software\node\node_modules\npm\lib\commands\install.js:150:5)
+17 verbose audit error     at async Npm.exec (D:\software\node\node_modules\npm\lib\npm.js:208:9)
+17 verbose audit error     at async module.exports (D:\software\node\node_modules\npm\lib\cli\entry.js:67:5) {
+17 verbose audit error   headers: [Object: null prototype] {
+17 verbose audit error     server: [ 'Tengine' ],
+17 verbose audit error     date: [ 'Sun, 26 Apr 2026 07:57:43 GMT' ],
+17 verbose audit error     'content-type': [ 'application/json' ],
+17 verbose audit error     'transfer-encoding': [ 'chunked' ],
+17 verbose audit error     connection: [ 'keep-alive' ],
+17 verbose audit error     'strict-transport-security': [ 'max-age=5184000' ],
+17 verbose audit error     via: [ 'kunlun13.cn9398[,404666]' ],
+17 verbose audit error     'timing-allow-origin': [ '*' ],
+17 verbose audit error     eagleid: [ '968bf11417771902632421575e' ],
+17 verbose audit error     'x-fetch-attempts': [ '1' ]
+17 verbose audit error   },
+17 verbose audit error   statusCode: 404,
+17 verbose audit error   code: 'E404',
+17 verbose audit error   method: 'POST',
+17 verbose audit error   uri: 'https://registry.npmmirror.com/-/npm/v1/security/advisories/bulk',
+17 verbose audit error   body: {
+17 verbose audit error     error: '[NOT_IMPLEMENTED] /-/npm/v1/security/* not implemented yet'
+17 verbose audit error   },
+17 verbose audit error   pkgid: undefined
+17 verbose audit error }
+18 silly audit error [object Object]
+19 silly audit report null
+20 verbose cwd C:\Users\18383\Desktop\策略规划器\frontend
+21 verbose os Windows_NT 10.0.26200
+22 verbose node v24.12.0
+23 verbose npm  v11.6.2
+24 verbose exit 0
+25 info ok

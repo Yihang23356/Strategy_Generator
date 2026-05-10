@@ -1,0 +1,27 @@
+JSON 差异分析执行日志
+================================
+执行时间: 2026-04-26T18:59:12.988373
+输入文件: ['input/uploads/input_a_input_a.json', 'input/uploads/input_b_input_b.json', 'input/uploads/input_c_input_c.json']
+标准答案: input/uploads/standard_standard_answer.json
+输出文件: output/review_round_2/result.json
+
+配置参数:
+- 最大嵌套深度: 10
+- 数字容差: 0.001
+- 忽略字段: ['metadata', 'timestamp', 'id']
+- 随机种子: 123456
+
+执行结果:
+- 总差异数: 42
+- 关键差异: 0
+- 高级差异: 1
+- 中级差异: 41
+- 低级差异: 0
+
+一致性分析:
+- 最接近标准答案: input_c_input_c.json
+- 偏离最大: input_a_input_a.json
+
+验证结果:
+- 验证通过: True
+. 随机抽样 8 个差异进行验证，全部通过

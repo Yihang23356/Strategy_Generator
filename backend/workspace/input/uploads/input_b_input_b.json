@@ -1,0 +1,15 @@
+{
+  "source": "operations_team",
+  "project": "smart-warehouse-upgrade",
+  "pain_points": [
+    "Manual route assignment causes congestion near loading docks.",
+    "Training quality differs by shift.",
+    "Night shift has 18% higher exception handling time."
+  ],
+  "proposed_actions": [
+    "Introduce dynamic picking route optimization.",
+    "Standardize SOP with micro-learning modules.",
+    "Deploy exception triage dashboard."
+  ],
+  "priority": "high"
+}

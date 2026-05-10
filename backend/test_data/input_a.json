@@ -1,0 +1,15 @@
+{
+  "source": "market_research",
+  "project": "smart-warehouse-upgrade",
+  "goal": "reduce fulfillment time and improve order accuracy",
+  "constraints": {
+    "budget_cny_million": 5.0,
+    "timeline_months": 6,
+    "headcount_limit": 8
+  },
+  "findings": [
+    "Peak-hour picking delay is significant in zone B.",
+    "Barcode mismatch rate increased after recent SKU expansion.",
+    "Current WMS API latency averages 280ms."
+  ]
+}
